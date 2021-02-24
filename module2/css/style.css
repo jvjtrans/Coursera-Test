@@ -1,0 +1,96 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: fantasy;
+}
+p {
+  padding: 20px;
+}
+
+#tit1 {
+  background: #88fc03;
+  color: black;
+}
+.con1 {
+  background: #79a349;
+}
+
+#tit2 {
+  background: #8dbee3;
+  color: black;
+}
+.con2 {
+  background: #10619e;
+}
+
+#tit3 {
+  background: #db86c9;
+  color: black;
+}
+.con3 {
+  background: #751260;
+}
+
+div {
+  margin-bottom: 10px;
+}
+
+
+h1 {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.container {
+  padding-top: 30px;
+  margin: 10px;
+  position: relative;
+  color: #000000;
+  border: solid 1px black;
+}
+
+h2 { 
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 25%;
+  text-align: center;
+  color: white;
+  border: solid black 1px;
+}
+
+
+/********** Large devices only **********/
+@media (min-width: 992px) {
+  #sec1 {
+    width: 33.33%;
+    float: left;
+  }
+  #sec2 {
+    width: 33.33%;
+    float: left;
+      }
+  #sec3 {
+    width: 33.33%;
+    float: left;
+      }
+
+}
+
+
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  #sec1 {
+    width: 50%;
+    float: left;
+  }
+  #sec2 {
+    width: 50%;
+    float: left;
+  }
+  #sec3 {
+    width: 100%;
+    float: left;
+  
+}
